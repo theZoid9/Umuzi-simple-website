@@ -23,14 +23,20 @@ body {
     
 }
 
+.Navbar {
+    position: fixed;
+    width: 100%;
+    
+}
+
 .Navbar ul {
+        
     display: flex;
     justify-content:center;
     list-style-type: none;
-    background-color: #8a8a8a;
+    background-color: #2C3E50;
     background-size: 13%;
     padding: 0px;
-    margin: 0px;
     height: 100px;
 }
 
@@ -48,7 +54,7 @@ body {
 
 .Navbar a:hover {
     transform: translateY(20px);
-    color: #2C3E50;
+    color: #ffffff;
 }
 
 
@@ -79,15 +85,18 @@ body {
 }
 
 #x {
-    position: relative;
-    left: 175px;
     bottom: 5px;
     padding-bottom: 50px;
 }
 
+.other {
+    padding-top: 20px;
+}
 
 
-#projects {
+
+
+#project {
     background-color:#ffffff ;
     color: var(--nuatral);
     font-size: 40px;
@@ -95,15 +104,15 @@ body {
     padding-top: 100px;
 }
 
-#projects h1{
+#project h1{
     border-bottom:  5px solid black;
     width: fit-content;
     margin: auto;
-   
+    font-size: 50px;
 
 }
 
-#projects .projects {
+#project .projects {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px ,1fr));
     gap: 150px;
@@ -116,7 +125,7 @@ body {
     
 }
 
-#projects .project-tile {
+#project .project-tile {
     height: 560px;
     width: 100%;
     display: flex;
@@ -131,35 +140,31 @@ body {
 }
 
 
-#projects .project-tile img {
+#project .project-tile img {
     height:  100%;
     width:  100%;
     object-fit: cover;
 }
 
 
-#projects .project-tile p {
+#project .project-tile p {
     font-size: 25px;
     padding: 10px;
 
 }
 
-#projects .project-tile span {
+#project .project-tile span {
     opacity: 0%;
     padding: 0 5px;
 }
 
-#projects .project-tile:hover p {
+#project .project-tile:hover p {
     opacity: 100%;
-    color: #2C3E50 ;
+    color: #ffffff ;
     transition: opacity 0.25s ease-in;
     
 }
 
-#projects .project-tile:hover  {
-    transform: translateY(50px);
-    transition: transform 0.1s ease-in;
-}
 
 
 
@@ -170,14 +175,17 @@ body {
 
 
 
-.cv2 {
+
+.cv2  {
     display: flex;
     gap: 10px;
-    background-color: rgb(255, 255, 255); 
+    background-color: #8a8a8a; 
     padding: 20px;
     padding-left: 300px;
     padding-top: 10%;
     padding-bottom: 10%;
+    margin-top: 0px;
+    
     
 }
 
@@ -190,7 +198,12 @@ body {
     box-shadow: 8px 8px 10px 5px rgb(0, 0, 0);
 }
 
-
+.contact {
+    display: flex;
+    position: relative;
+    text-align: center;
+    top: 200px;
+}
 
 #contacts {
     background-color: #8a8a8a;
@@ -235,4 +248,14 @@ body {
 }
 #contacts .social-media:hover {
     transform: translateY(20px);
+}
+
+
+.foot {
+    border-top: 3px solid black;
+    background-color: #2C3E50;
+    font-size: 25px;
+    padding-left: 800px;
+    padding-bottom: 20px;
+    padding-top: 100px;
 }
