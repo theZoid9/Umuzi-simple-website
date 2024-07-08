@@ -203,12 +203,14 @@ body {
     position: relative;
     text-align: center;
     top: 200px;
+    right: 80px;
 }
 
 #contacts {
     background-color: #8a8a8a;
     color: var(--accent);
     padding-bottom: 200px;
+    
   
 }
 
@@ -234,6 +236,7 @@ body {
     margin-top: 30px;
     position: relative;
     top: 200px;
+    
 }
 
 
@@ -250,6 +253,17 @@ body {
     transform: translateY(20px);
 }
 
+
+#up {
+    position: relative;
+    right: 1300px;
+    top: 130px;
+    padding: 10px;
+    background-color: #2C3E50;
+    border-color: #000000;
+    color: #8a8a8a;
+    text-decoration: none;
+}
 
 .foot {
     border-top: 3px solid black;
