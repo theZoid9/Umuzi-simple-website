@@ -203,13 +203,14 @@ body {
     position: relative;
     text-align: center;
     top: 200px;
-    right: 80px;
+    right: 100px;
 }
 
 #contacts {
     background-color: #8a8a8a;
     color: var(--accent);
     padding-bottom: 200px;
+    padding-left: 100px;
     
   
 }
@@ -237,6 +238,7 @@ body {
     position: relative;
     top: 200px;
     
+    
 }
 
 
@@ -244,10 +246,11 @@ body {
     text-decoration: none;
     color: #2C3E50;
     transition: transform 0.2s ease-in;
-    display: flex;
-    align-items: center;
-    margin: 20px;
+    margin: 10px;
     font-size: 22px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    
 }
 #contacts .social-media:hover {
     transform: translateY(20px);
@@ -257,19 +260,28 @@ body {
 #up {
     position: relative;
     right: 1300px;
-    top: 130px;
+    top: 160px;
     padding: 10px;
     background-color: #2C3E50;
     border-color: #000000;
     color: #8a8a8a;
     text-decoration: none;
+    border: none;
+    border-radius: 50%;
+
+ 
 }
 
+#up a{
+    color: #000000;
+    text-decoration: none;
+   
+}
 .foot {
     border-top: 3px solid black;
     background-color: #2C3E50;
     font-size: 25px;
     padding-left: 800px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     padding-top: 100px;
 }
