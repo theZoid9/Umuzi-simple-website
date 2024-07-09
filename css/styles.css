@@ -191,19 +191,52 @@ body {
     padding: 20px;
     padding-left: 300px;
     padding-top: 10%;
-    padding-bottom: 10%;
+    padding-bottom: 4%;
     margin-top: 0px;
     
     
 }
 
 
-#cv img {
+.cv img {
     width: 80%;
     height: auto;
     display: block;
     border-radius: 5%;
     box-shadow: 8px 8px 10px 5px rgb(0, 0, 0);
+}
+
+.btn {
+    background-color: #8a8a8a;;
+ 
+    padding-bottom: 100px;
+}
+
+.btn #download {
+    width: 200px;
+    height: 50px;
+    background-color: #2C3E50;
+    color: #8a8a8a;
+    padding-right: 40px;
+    margin-left: 850px; /* Center the button */
+    padding-bottom:  10px;
+    
+}
+
+.btn div {
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 1%;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px 2px rgb(0, 0, 0);
+}
+
+.btn #download:hover {
+    opacity: 100%;
+    color: #ffffff ;
+    transition: opacity 0.25s ease-in;
+    
+
 }
 
 .contact {
