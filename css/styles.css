@@ -212,26 +212,30 @@ body {
     padding-bottom: 100px;
 }
 
-.btn #download {
+.btn #box {
     width: 200px;
     height: 50px;
     background-color: #2C3E50;
-    color: #8a8a8a;
     padding-right: 40px;
     margin-left: 850px; /* Center the button */
     padding-bottom:  10px;
-    
-}
-
-.btn div {
-    font-size: 30px;
-    padding-left: 50px;
-    padding-top: 1%;
     border-radius: 5%;
     box-shadow: 5px 5px 10px 2px rgb(0, 0, 0);
 }
+    
 
-.btn #download:hover {
+
+.btn #words {
+    width: 200px;
+    height: 50px;
+    color: #8a8a8a;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+
+}
+
+.btn #words:hover {
     opacity: 100%;
     color: #ffffff ;
     transition: opacity 0.25s ease-in;
@@ -317,6 +321,14 @@ body {
     color: #000000;
     text-decoration: none;
    
+}
+
+#up:hover a {
+    opacity: 100%;
+    color: #8a8a8a;
+    transition: opacity 0.25s ease-in;
+
+
 }
 .foot {
     border-top: 3px solid black;
