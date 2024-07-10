@@ -1,10 +1,4 @@
-:root{
-    --main: #1ABC9C;
-    --secondary: #2C3E50;
-    --text: #000000 ;
-    --accent: #aa9f00 ;
-    --background: #ECF0F1;
-}
+
 
 * {
     margin: 0px;
@@ -81,20 +75,20 @@ body {
     
 }
 .about #name {
-    color: #2C3E50;
+    color: #8a8a8a;
     font-style:italic;
     
 }
 
 .about #aboutme {
     padding-bottom: 20px;
-    color: #2C3E50;
+    color: #8a8a8a;
 
 }
 
 #x {
     bottom: 5px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 
 .other {
@@ -213,6 +207,7 @@ body {
 }
 
 .btn #box {
+    
     width: 200px;
     height: 50px;
     background-color: #2C3E50;
@@ -226,6 +221,7 @@ body {
 
 
 .btn #words {
+    
     width: 200px;
     height: 50px;
     color: #8a8a8a;
@@ -241,6 +237,10 @@ body {
     transition: opacity 0.25s ease-in;
     
 
+}
+
+#box a {
+    text-decoration: none;
 }
 
 .contact {
