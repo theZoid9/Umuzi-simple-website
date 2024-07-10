@@ -4,11 +4,11 @@ Hi and Welcome to my simple website ,which is base on myself ,experience and pro
 
 # Table of contents
 
-- [Home](#home)
-- [Projects](#projects)
-- [CV](#CV)
-- [Contacts](#contacts)
+- [Home] - about me
+- [Projects] - Projects listed on github
+- [CV] - Cv regarding work and skill experience 
+- [Contacts] - Contact links 
 
 
-# Home
+
 
