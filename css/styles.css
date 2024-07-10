@@ -192,7 +192,7 @@ body {
 }
 
 
-.cv img {
+#cv img {
     width: 80%;
     height: auto;
     display: block;
